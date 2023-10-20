@@ -41,7 +41,8 @@ In this example, the user named John with phone number 01234567890 orders 2 Burg
 **Screenshot of Bill Calculation**: The program prints a formal menu enlisting all the selected items and their quantities, generates a random invoice number, calculates the total cost, applies discount and VAT, and prints out the bill. ![image](https://github.com/iamnazmulhasan/restaurant-bill-generator/assets/26362912/6ecce926-46b2-4850-b61b-7fc6969c8944)
 
 
-**Screenshot of Final Output**: The final output of the program, showing the total cost in words. ![image](https://github.com/iamnazmulhasan/restaurant-bill-generator/assets/26362912/e4125c14-9043-458f-8fc6-e10ce45f21f1)
+
+**Screenshot of Final Output**: The final output of the program, showing the total cost in words. ![image](https://github.com/iamnazmulhasan/restaurant-bill-generator/assets/26362912/17d5e1ed-4e39-4276-ae5a-78316843fef4)
 
 ## Environment Setup to run this Program
 To run this C program, you would need the following environment setup:
