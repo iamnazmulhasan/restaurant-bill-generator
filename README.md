@@ -56,7 +56,8 @@ To run this C program, you would need the following environment setup:
 **Terminal:** You will need a terminal to run the compiler and your program. On Windows, you can use Command Prompt or PowerShell. On macOS and Linux, you can use Terminal.
 
 **items.txt File:** The program reads from a file named “items.txt”. This file should be located in the same directory as your C program and should contain the item data for your program to read.
-Here are the steps to compile and run your C program on Windows with minGW:
+
+###Here are the steps to compile and run your C program on Windows with minGW:
 
 1. **Open Command Prompt**: You can do this by searching for "cmd" in the Start menu.
 
