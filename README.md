@@ -81,7 +81,7 @@ To run this C program, you would need the following environment setup:
 
 **items.txt File:** The program reads from a file named “items.txt”. This file should be located in the same directory as your C program and should contain the item data for your program to read.
 
-### Here are the steps to compile and run the C program on Windows with the minGW compiler:
+### Steps to compile and run the C program on Windows with the minGW compiler:
 
 1. **Open Command Prompt**: You can do this by searching for "cmd" in the Start menu.
 
