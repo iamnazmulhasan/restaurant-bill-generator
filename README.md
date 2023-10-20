@@ -15,6 +15,7 @@ Sandwich 150
 Pasta 260
 ```
 Note that in the text file item names and prices are separated by a space. 
+
 **User Input**
 ```
 Enter customer's name: John
