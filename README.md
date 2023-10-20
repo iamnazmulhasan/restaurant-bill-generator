@@ -23,7 +23,7 @@ Enter customer's phone number: 01234567890
 Enter your choices (items are separated by space and quantities separated by a period from the item): 1.2 2.1 5.1 6.2 8.1
 ```
 
-In this example, the user named John with phone number 1234567890 orders 2 Burgers, 1 Pizza, 1 Chicken, 2 Sauce, and 1 Pasta dish. The program will then calculate the total cost, apply the discount and VAT, and print out the bill.
+In this example, the user named John with phone number 01234567890 orders 2 Burgers, 1 Pizza, 1 Chicken, 2 Sauce, and 1 Pasta dish. The program will then calculate the total cost, apply the discount and VAT, and print out the bill.
 
 ## Demo screenshots for the sample inputs 
 
