@@ -1,6 +1,30 @@
 # Restaurant Bill Generator 
 This is a C program that generates a bill for a customer based on the items and quantities they choose from a menu. The menu is imported from an external text (.txt) file. The program first asks the user for the customer’s name and phone number to get started. The program then reads the items and their prices from the text file, asks the user to enter the choices following a certain protocol for including both item number and quantity, and then calculates the total amount with a 10% discount on the subtotal and a 5% VAT after the discount. Lastly, the program prints the bill in words (up to 3 digits) and numbers.
 
+### Basic functionalities and features of the program
+
+1. **Data Structure**: The program uses a struct `Item` to store information about each item, including its name, price, and quantity.
+
+2. **File Reading**: The program reads item data from a file named "items.txt". Each line in the file should contain an item's name and price, separated by a space.
+
+3. **Customer Input**: The program prompts the customer to enter their name and phone number. It also allows the customer to order items from a menu.
+
+4. **Order Processing**: The customer's order is processed by reading a line of input where items are separated by space and quantities are separated by a period. For example, "1.2 3.1" means the customer orders 2 quantities of item 1 and 1 quantity of item 3.
+
+5. **Invoice Generation**: After processing the order, the program generates an invoice that includes:
+   - The date, customer's name, phone number, and invoice number.
+   - A list of ordered items with their names, quantities, prices, and amounts.
+   - The subtotal (total before discount and VAT).
+   - A 10% discount on the subtotal.
+   - A 5% VAT applied after the discount.
+   - The net payable amount (subtotal - discount + VAT).
+
+6. **Amount in Words**: The program also prints the total amount payable in words.
+
+7. **File Details**: The file "items.txt" is expected to be in the same directory as your C program. Each line in the file represents an item available for purchase in your restaurant. Each line should contain an item's name and price, separated by a space.
+
+_Please note that this program does not handle invalid inputs gracefully. If the file is not found or the input format is not as expected, it may crash or behave unexpectedly._
+
 ## Sample Input Dataset
 
 **items.txt**
@@ -57,7 +81,7 @@ To run this C program, you would need the following environment setup:
 
 **items.txt File:** The program reads from a file named “items.txt”. This file should be located in the same directory as your C program and should contain the item data for your program to read.
 
-### Here are the steps to compile and run the C program on Windows with minGW compiler:
+### Here are the steps to compile and run the C program on Windows with the minGW compiler:
 
 1. **Open Command Prompt**: You can do this by searching for "cmd" in the Start menu.
 
@@ -66,3 +90,6 @@ To run this C program, you would need the following environment setup:
 3. **Compile Your Program**: Use the `gcc` command to compile your program. For example, if your program's file name is _program.c,_ you would type `gcc -o program program.c` and press Enter. This tells GCC to compile "program.c" and output the result to a file named "program". If there are no errors in your code, GCC will create an executable file in the same directory. Here in this case the program file name is `restaurant-bill-generator.c`
 
 4. **Run Your Program**: To run your program, simply type `program` and press Enter. This will execute the file named "program" that was created by GCC.
+
+
+Note: This program was created in collaboration with two of my other team members. If you find any bugs feel free to reach me out through [email](not.nazmulhasanshipon@gmail.com).
