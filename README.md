@@ -92,4 +92,4 @@ To run this C program, you would need the following environment setup:
 4. **Run Your Program**: To run your program, simply type `program` and press Enter. This will execute the file named "program" that was created by GCC.
 
 
-Note: This program was created in collaboration with two of my other team members. If you find any bugs feel free to reach me out through [email](not.nazmulhasanshipon@gmail.com).
+_Note: This program was created in collaboration with two of my other team members. If you find any bugs feel free to reach me out through [email](mailto:not.nazmulhasanshipon@gmail.com)._
